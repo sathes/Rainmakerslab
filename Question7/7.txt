@@ -1,0 +1,1 @@
+select max(id) as id from users where id < (select max(id) from users);
